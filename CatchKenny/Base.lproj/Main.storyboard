@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CatchKenny" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PIk-gP-sHT">
+                                <rect key="frame" x="20" y="777" width="178" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="Xyt-af-w0r"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High Score: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aTq-qH-NMq">
+                                <rect key="frame" x="226" y="777" width="168" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="168" id="3BJ-B5-6fe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMV-h3-4Mo">
+                                <rect key="frame" x="140" y="67" width="135" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="QBl-CF-S36"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PIk-gP-sHT" firstAttribute="firstBaseline" secondItem="aTq-qH-NMq" secondAttribute="firstBaseline" id="G2t-0d-MFk"/>
+                            <constraint firstItem="SMV-h3-4Mo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="23" id="LdQ-g8-ZO3"/>
+                            <constraint firstItem="PIk-gP-sHT" firstAttribute="baseline" secondItem="aTq-qH-NMq" secondAttribute="baseline" id="Q7Q-we-MAi"/>
+                            <constraint firstItem="aTq-qH-NMq" firstAttribute="leading" secondItem="PIk-gP-sHT" secondAttribute="trailing" constant="28" id="ZVU-pS-KLA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SMV-h3-4Mo" secondAttribute="trailing" constant="139" id="clv-MI-ntv"/>
+                            <constraint firstItem="PIk-gP-sHT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="e5n-c3-3EN"/>
+                            <constraint firstItem="SMV-h3-4Mo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="t7g-cQ-eHI"/>
+                            <constraint firstItem="aTq-qH-NMq" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="tc0-9X-fCv"/>
+                            <constraint firstItem="PIk-gP-sHT" firstAttribute="top" secondItem="SMV-h3-4Mo" secondAttribute="bottom" constant="637" id="yyZ-w8-PKI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="highScoreLabel" destination="aTq-qH-NMq" id="bRX-I7-NOk"/>
+                        <outlet property="scoreLabel" destination="PIk-gP-sHT" id="OW0-ic-H94"/>
+                        <outlet property="timeRemainingLabel" destination="SMV-h3-4Mo" id="U41-yF-jd0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
