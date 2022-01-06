@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //check
         scoreLabel.text = "Score: \(score)"
         
         let storedHighScore = UserDefaults.standard.object(forKey: "highscore")

@@ -19,25 +19,25 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PIk-gP-sHT">
                                 <rect key="frame" x="20" y="777" width="178" height="42"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="42" id="Xyt-af-w0r"/>
+                                    <constraint firstAttribute="height" constant="42" id="VE8-Tw-AAm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High Score: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aTq-qH-NMq">
-                                <rect key="frame" x="226" y="777" width="168" height="42"/>
+                                <rect key="frame" x="206" y="777" width="164" height="42"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="168" id="3BJ-B5-6fe"/>
+                                    <constraint firstAttribute="width" constant="164" id="TXQ-9s-6hr"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMV-h3-4Mo">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMV-h3-4Mo">
                                 <rect key="frame" x="140" y="67" width="135" height="73"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="73" id="QBl-CF-S36"/>
+                                    <constraint firstAttribute="height" constant="73" id="Uxh-jy-pvP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
@@ -47,15 +47,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="PIk-gP-sHT" firstAttribute="firstBaseline" secondItem="aTq-qH-NMq" secondAttribute="firstBaseline" id="G2t-0d-MFk"/>
-                            <constraint firstItem="SMV-h3-4Mo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="23" id="LdQ-g8-ZO3"/>
-                            <constraint firstItem="PIk-gP-sHT" firstAttribute="baseline" secondItem="aTq-qH-NMq" secondAttribute="baseline" id="Q7Q-we-MAi"/>
-                            <constraint firstItem="aTq-qH-NMq" firstAttribute="leading" secondItem="PIk-gP-sHT" secondAttribute="trailing" constant="28" id="ZVU-pS-KLA"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SMV-h3-4Mo" secondAttribute="trailing" constant="139" id="clv-MI-ntv"/>
-                            <constraint firstItem="PIk-gP-sHT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="e5n-c3-3EN"/>
-                            <constraint firstItem="SMV-h3-4Mo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="t7g-cQ-eHI"/>
-                            <constraint firstItem="aTq-qH-NMq" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="tc0-9X-fCv"/>
-                            <constraint firstItem="PIk-gP-sHT" firstAttribute="top" secondItem="SMV-h3-4Mo" secondAttribute="bottom" constant="637" id="yyZ-w8-PKI"/>
+                            <constraint firstItem="aTq-qH-NMq" firstAttribute="leading" secondItem="PIk-gP-sHT" secondAttribute="trailing" constant="8" id="50b-BS-lK3"/>
+                            <constraint firstItem="PIk-gP-sHT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="EZT-mE-R13"/>
+                            <constraint firstItem="SMV-h3-4Mo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="Fae-Bj-136"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PIk-gP-sHT" secondAttribute="bottom" constant="43" id="Yhn-ru-nXS"/>
+                            <constraint firstItem="PIk-gP-sHT" firstAttribute="firstBaseline" secondItem="aTq-qH-NMq" secondAttribute="firstBaseline" id="fzM-qD-B2l"/>
+                            <constraint firstItem="PIk-gP-sHT" firstAttribute="baseline" secondItem="aTq-qH-NMq" secondAttribute="baseline" id="hGy-Ba-M3t"/>
+                            <constraint firstItem="SMV-h3-4Mo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kpf-4n-hpA"/>
+                            <constraint firstItem="SMV-h3-4Mo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="23" id="mgh-cq-Iqm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aTq-qH-NMq" secondAttribute="trailing" constant="44" id="xgk-Mz-cD4"/>
                         </constraints>
                     </view>
                     <connections>
